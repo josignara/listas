@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-p8na1r');
+	src:url('fonts/icomoon.eot?#iefix-p8na1r') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-p8na1r') format('woff'),
+		url('fonts/icomoon.ttf?-p8na1r') format('truetype'),
+		url('fonts/icomoon.svg?-p8na1r#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+
+{
+background: lightgray;
+font-family: sans-serif;
+}
+
+h2
+
+{
+clear: both;
+margin-bottom: 1%;
+padding-top: 2%;
+}
+
+
+ul
+
+{
+list-style-type: none;
+}
+
+
+ul.l0
+
+{
+list-style-type: disc;
+}
+
+
+ul.l1 li
+
+{
+float:left;
+width: 10%;
+border: 5px dashed #954A95;
+margin-right: 1%;
+padding: 5px;
+background-color: green;
+color: purple;
+font-weight: bold;
+text-align: center;
+}
+
+
+ul.l2
+
+{
+text-align: center;
+}
+
+ul.l2 li
+
+{
+border: white 3px solid;
+border-color: white black black white;
+padding: 3px 6px;
+background-color: white;
+display: inline;
+}
+
+ul.l2 li:hover
+
+{
+background-color: lightgray;
+border: white 2px solid;
+border-color: black white white black;
+}
+  
+ul.l3
+{
+width: 180px;
+text-align: center;
+padding: 1%;
+border: black 1px solid;
+
+
+}
+
+ul.l3 li
+
+{
+width: 9em;
+border: black 1px solid;
+margin: 0.5em 0 0.5em 0.5em;
+padding: 0.5em;
+background-color: white;
+text-align: center;
+}
+  
+ul.l4 {
+text-align: center;
+}
+  
+ul.l4 li {
+display: inline-block;
+font-weight: bold;
+width: 170px;
+margin: 0;
+padding: 0.5em 0;
+background-color: white;
+color: blue;
+
+}
+  
+ul.l4 li.par {
+background-color: blue;
+color: white;
+
+}
+
+
+ul.l5 li {
+float:left;
+padding-left: 40px;
+}
+  
+ul.l6 {
+text-align: center;
+}
+  
+ul.l6 li {
+display: inline;
+border: black 0.1em solid;
+border-radius: 0.3em;
+margin-right: 1em;
+padding: 0.5em 0.5em 0.3em;
+background-color: white;
+font-size: 200%;
+line-height: 250%;
+}
+  
+  ul.l6 i {
+    margin: 0;
+  }
